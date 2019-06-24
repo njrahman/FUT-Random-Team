@@ -1,7 +1,7 @@
 import pandas as pd
 import pprint as pprint
 import random as random
-
+import networkx as nx
 
 player_data = pd.read_csv("fifa_19_player_data.csv", encoding="latin-1")
 
